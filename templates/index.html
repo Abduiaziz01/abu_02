@@ -20,7 +20,7 @@
         <div class="container">
             <!-- Logo -->
             <div class="logo-wrapper">
-                <a class="logo" href="#"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <a class="logo" href="#"> <img src="{% static 'img/logo.png' %}" class="logo-img" alt=""> </a>
                 <!-- <a class="logo" href="#"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> -->
             </div>
             <!-- Button -->
@@ -45,7 +45,7 @@
     <header class="header slider-fade">
         <div class="owl-carousel owl-theme">
             <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
-            <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/merrigarden/banner/1.jpg">
+            <div class="text-center item bg-img" data-overlay-dark="2" data-background="{% static 'img/merrigarden/banner/1.jpg' %}">
                 <div class="v-middle caption">
                     <div class="container">
                         <div class="row">
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/merrigarden/banner/2.jpg">
+            <div class="text-center item bg-img" data-overlay-dark="2" data-background="{% static 'img/merrigarden/banner/2.jpg' %}">
                 <div class="v-middle caption">
                     <div class="container">
                         <div class="row">
@@ -104,10 +104,10 @@
                     </div>
                 </div>
                 <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
-                    <img src="img/merrigarden/banner/1.jpg" alt="" class="mt-90 mb-30 br-20">
+                    <img src="{% static 'img/merrigarden/banner/1.jpg' %}" alt="" class="mt-90 mb-30 br-20">
                 </div>
                 <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
-                    <img src="img/merrigarden/banner/2.jpg" alt="" class="br-20">
+                    <img src="{% static 'img/merrigarden/banner/2.jpg' %}" alt="" class="br-20">
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="item br-20">
-                        <div class="position-re o-hidden"><img src="img/merrigarden/news/1.jpg" alt=""></div>
+                        <div class="position-re o-hidden"><img src="{% static 'img/merrigarden/news/1.jpg' %}" alt=""></div>
                         <div class="con">
                             <h5><a href="#">Новость 1</a> </h5>
                             <div class="line"></div>
@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="item br-20">
-                        <div class="position-re o-hidden"><img src="img/merrigarden/news/2.jpg" alt=""></div>
+                        <div class="position-re o-hidden"><img src="{% static 'img/merrigarden/news/2.jpg' %}" alt=""></div>
                         <div class="con">
                             <h5><a href="#">Новость 2</a></h5>
                             <div class="line"></div>
@@ -160,7 +160,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="item br-20">
-                        <div class="position-re o-hidden"><img src="img/merrigarden/news/3.jpg" alt=""></div>
+                        <div class="position-re o-hidden"><img src="{% static 'img/merrigarden/news/3.jpg' %}" alt=""></div>
                         <div class="con">
                             <h5><a href="#">Новость 3</a></h5>
                             <div class="line"></div>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="item br-20">
-                        <div class="position-re o-hidden"><img src="img/merrigarden/news/4.jpg" alt=""></div>
+                        <div class="position-re o-hidden"><img src="{% static 'img/merrigarden/news/4.jpg' %}" alt=""></div>
                         <div class="con">
                             <h5><a href="#">Новость 4</a></h5>
                             <div class="line"></div>
@@ -196,7 +196,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="item br-20">
-                        <div class="position-re o-hidden"><img src="img/merrigarden/news/5.jpg" alt=""></div>
+                        <div class="position-re o-hidden"><img src="{% static 'img/merrigarden/news/5.jpg' %}" alt=""></div>
                         <div class="con">
                             <h5><a href="#">Новость 5</a></h5>
                             <div class="line"></div>
@@ -217,7 +217,7 @@
     </section>
     <!-- Promo Video -->
     <section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="3"
-        data-background="img/merrigarden/banner/1.jpg">
+        data-background="{% static 'img/merrigarden/banner/1.jpg' %}">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">
@@ -282,7 +282,7 @@
             <div class="row">
                 <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
                     <div class="img left brl-20">
-                        <a href="#"><img src="img/merrigarden/banner/1.jpg" alt=""></a>
+                        <a href="#"><img src="{% static 'img/merrigarden/banner/1.jpg' %}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-6 p-0 bg-cream valign animate-box brr-20" data-animate-effect="fadeInRight">
@@ -307,14 +307,14 @@
                 </div>
                 <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
                     <div class="img brr-20">
-                        <a href="#"><img src="img/merrigarden/banner/2.jpg" alt=""></a>
+                        <a href="#"><img src="{% static 'img/merrigarden/banner/2.jpg' %}" alt=""></a>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
                     <div class="img left brl-20">
-                        <a href="#"><img src="img/merrigarden/news/3.jpg" alt=""></a>
+                        <a href="#"><img src="{% static 'img/merrigarden/news/3.jpg' %}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-6 p-0 bg-cream valign animate-box brr-20" data-animate-effect="fadeInRight">
@@ -340,7 +340,7 @@
             </div>
             <div class="row">
                 <div class="col col-md-6 animate-box" data-animate-effect="fadeInUp">
-                    <img src="img/merrigarden/team/1.webp" alt="" class="br-20">
+                    <img src="{% static 'img/merrigarden/team/1.webp'%}" alt="" class="br-20">
                 </div>
                 <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
                     <div class="section-subtitle">Boss</div>
@@ -359,7 +359,7 @@
                     <div class="owl-carousel owl-theme">
                         <div class="item br-20">
                             <div class="position-re o-hidden br-20"> 
-                                <img class="br-20" src="img/merrigarden/team/1.webp" alt="">
+                                <img class="br-20" src="{% static 'img/merrigarden/team/1.webp'%}" alt="">
                             </div>
                             <div class="con br-20">
                                 <h5><a href="post.html">Нурислам</a></h5>
@@ -367,7 +367,7 @@
                         </div>
                         <div class="item br-20">
                             <div class="position-re o-hidden br-20">
-                                <img class="br-20" src="img/merrigarden/team/2.jpg" alt="">
+                                <img class="br-20" src="{% static 'img/merrigarden/team/2.jpg' %}" alt="">
                             </div>
                             <div class="con br-20"> 
                                 <h5><a href="post.html">Индира</a></h5>
@@ -375,7 +375,7 @@
                         </div>
                         <div class="item br-20">
                             <div class="position-re o-hidden br-20"> 
-                                <img class="br-20" src="img/merrigarden/team/3.jpg" alt="">
+                                <img class="br-20" src="{% static 'img/merrigarden/team/3.jpg' %}" alt="">
                             </div>
                             <div class="con br-20">
                                 <h5><a href="post.html">Самат</a></h5>
@@ -383,7 +383,7 @@
                         </div>
                         <div class="item br-20">
                             <div class="position-re o-hidden br-20">
-                                <img class="br-20" src="img/merrigarden/team/4.jpg" alt="">
+                                <img class="br-20" src="{% static 'img/merrigarden/team/4.jpg' %}" alt="">
                             </div>
                             <div class="con br-20">
                                 <h5><a href="post.html">Венера</a></h5>
@@ -396,7 +396,7 @@
     </section>
     <!-- Reservation & Booking Form -->
     <section class="testimonials">
-        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/merrigarden/banner/2.jpg"
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="{% static 'img/merrigarden/banner/2.jpg' %}"
             data-overlay-dark="2">
             <div class="container">
                 <div class="row">
@@ -495,22 +495,22 @@
                 <div class="col-md-7">
                     <div class="owl-carousel owl-theme">
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/1.png" alt=""></a>
+                            <a href="#0"><img src="{% static 'img/clients/1.png' %}" alt=""></a>
                         </div>
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/2.png" alt=""></a>
+                            <a href="#0"><img src="{% static 'img/clients/2.png' %}" alt=""></a>
                         </div>
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/3.png" alt=""></a>
+                            <a href="#0"><img src="{% static 'img/clients/3.png' %}" alt=""></a>
                         </div>
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/4.png" alt=""></a>
+                            <a href="#0"><img src="{% static 'img/clients/4.png' %}" alt=""></a>
                         </div>
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/5.png" alt=""></a>
+                            <a href="#0"><img src="{% static 'img/clients/5.png' %}" alt=""></a>
                         </div>
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/6.png" alt=""></a>
+                            <a href="#0"><img src="{% static 'img/clients/6.png' %}" alt=""></a>
                         </div>
                     </div>
                 </div>

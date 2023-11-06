@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>О нас</title>
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -33,7 +33,7 @@
         <div class="container">
             <!-- Logo -->
             <div class="logo-wrapper">
-                <a class="logo" href="#"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <a class="logo" href="#"> <img src="{% static 'img/logo.png' %}" class="logo-img" alt=""> </a>
                 <!-- <a class="logo" href="#"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> -->
             </div>
             <!-- Button -->
@@ -55,7 +55,7 @@
         </div>
     </nav>
     <!-- Header Banner -->
-    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="img/merrigarden/banner/1.jpg">
+    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="{% static 'img/merrigarden/banner/1.jpg' %}">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 caption mt-90">
@@ -83,10 +83,10 @@
                     </div>
                 </div>
                 <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
-                    <img src="img/merrigarden/banner/1.jpg" alt="" class="mt-90 mb-30 br-20">
+                    <img src="{% static 'img/merrigarden/banner/1.jpg' %}" alt="" class="mt-90 mb-30 br-20">
                 </div>
                 <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
-                    <img src="img/merrigarden/banner/2.jpg" alt="" class="br-20">
+                    <img src="{% static 'img/merrigarden/banner/2.jpg' %}" alt="" class="br-20">
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@
             <div class="row">
                 <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
                     <div class="img left brl-20">
-                        <a href="#"><img src="img/merrigarden/banner/1.jpg" alt=""></a>
+                        <a href="#"><img src="{% static 'img/merrigarden/banner/1.jpg' %}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-6 p-0 bg-cream valign animate-box brr-20" data-animate-effect="fadeInRight">
@@ -159,14 +159,14 @@
                 </div>
                 <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
                     <div class="img brr-20">
-                        <a href="#"><img src="img/merrigarden/banner/2.jpg" alt=""></a>
+                        <a href="#"><img src="{% static 'img/merrigarden/banner/2.jpg' %}" alt=""></a>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
                     <div class="img left brl-20">
-                        <a href="#"><img src="img/merrigarden/news/3.jpg" alt=""></a>
+                        <a href="#"><img src="{% static 'img/merrigarden/news/3.jpg' %}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-6 p-0 bg-cream valign animate-box brr-20" data-animate-effect="fadeInRight">
@@ -195,7 +195,7 @@
                     <div class="owl-carousel owl-theme">
                         <div class="item br-20">
                             <div class="position-re o-hidden br-20"> 
-                                <img class="br-20" src="img/merrigarden/team/1.webp" alt="">
+                                <img class="br-20" src="{% static 'img/merrigarden/team/1.webp" alt="">
                             </div>
                             <div class="con br-20">
                                 <h5><a href="post.html">Нурислам</a></h5>
@@ -203,7 +203,7 @@
                         </div>
                         <div class="item br-20">
                             <div class="position-re o-hidden br-20">
-                                <img class="br-20" src="img/merrigarden/team/2.jpg" alt="">
+                                <img class="br-20" src="{% static 'img/merrigarden/team/2.jpg' %}" alt="">
                             </div>
                             <div class="con br-20"> 
                                 <h5><a href="post.html">Индира</a></h5>
@@ -211,7 +211,7 @@
                         </div>
                         <div class="item br-20">
                             <div class="position-re o-hidden br-20"> 
-                                <img class="br-20" src="img/merrigarden/team/3.jpg" alt="">
+                                <img class="br-20" src="{% static 'img/merrigarden/team/3.jpg' %}" alt="">
                             </div>
                             <div class="con br-20">
                                 <h5><a href="post.html">Самат</a></h5>
@@ -219,7 +219,7 @@
                         </div>
                         <div class="item br-20">
                             <div class="position-re o-hidden br-20">
-                                <img class="br-20" src="img/merrigarden/team/4.jpg" alt="">
+                                <img class="br-20" src="{% static 'img/merrigarden/team/4.jpg' %}" alt="">
                             </div>
                             <div class="con br-20">
                                 <h5><a href="post.html">Венера</a></h5>
@@ -232,7 +232,7 @@
     </section>
     <!-- Reservation & Booking Form -->
     <section class="testimonials">
-        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/merrigarden/banner/2.jpg"
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="{% static 'img/merrigarden/banner/2.jpg' %}"
             data-overlay-dark="2">
             <div class="container">
                 <div class="row">

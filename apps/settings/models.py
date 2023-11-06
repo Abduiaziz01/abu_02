@@ -20,3 +20,7 @@ class Settings(models.Model):
     email = models.EmailField(
         verbose_name="Введите свою почту"
     )
+
+    class Meta:
+        verbose_name = ''
+        verbose_name_plural = 'Настройки'
