@@ -18,10 +18,16 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-from apps.settings.views import index
+from apps.settings.views import index, about, team, gallery, news, post, contact
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name="index")
+    path('', index, name="index"),
+    path('about', about, name="about"),
+    path('team', team, name="team"),
+    path('gallery', gallery, name="gallery"),
+    path('news', news, name="news"),
+    path('post', post, name="post"),
+    path('contact', contact, name="contact")
 ]
 urlpatterns += static(settings.MEDIA_URL, document = settings.MEDIA_ROOT)
